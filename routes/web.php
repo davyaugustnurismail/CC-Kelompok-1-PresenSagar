@@ -20,3 +20,7 @@ Route::get('/schedule', function () {
 Route::get('/kehadiran', function () {
     return view('kehadiran');
 });
+
+Route::get('/form-absen', function () {
+    return view('form-absen');
+});
