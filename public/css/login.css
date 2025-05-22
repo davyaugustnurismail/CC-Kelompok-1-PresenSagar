@@ -1,0 +1,68 @@
+/* Mengatur body dan html untuk memiliki tinggi penuh dan menghapus margin default */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0066cc; /* Biru background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Menggunakan Flexbox untuk menempatkan login-container di tengah */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #0066cc; /* Warna latar belakang */
+  }
+  
+  /* Styling untuk kartu login */
+  .login-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Styling untuk logo */
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk judul login */
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk form input dan tombol */
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px
+  }
+  
+  button {
+    background-color: #3b3b3b;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
+  
