@@ -17,10 +17,19 @@ Route::get('/schedule', function () {
     return view('schedule');
 });
 
-Route::get('/kehadiran', function () {
-    return view('kehadiran');
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
 
 Route::get('/form-absen', function () {
     return view('form-absen');
 });
+
+Route::get('/form-kehadiran', function () {
+    return view('form-kehadiran');
+});
+
+Route::get('/form-pembuatan-sesi', function () {
+    return view('form-pembuatan-sesi');
+});
+
